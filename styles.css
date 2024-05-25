@@ -1,0 +1,270 @@
+* {
+    margin:0;
+    border:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.logo {
+    display:flex;
+    align-items: center;
+}
+.logo-tekst {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+    
+}
+.slika-tekstic{
+  font-size: 40px;
+  color:black;
+}
+
+.hrcak {
+    height: 50px;
+    margin:10px;
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 0 0;
+}
+.header {
+    background-color:white;
+}
+body {
+    background-color: white;
+}
+.navbar a{
+    float: left;
+     text-align: center;
+     text-decoration: none;
+     font-size: 17px;
+    color:  black;
+}
+.nav-link{
+  font-weight: bolder;
+}
+
+li {
+    padding: 12px;
+    height:44px;
+    display:flex;
+    align-items: center;
+    border-bottom:solid 3px white;
+}
+   
+    @media screen and (max-width: 500px) {
+        .navbar a {
+          float: none;
+          display: block;
+        }
+    }
+    
+    .nav-link:hover {
+        border-bottom:3px solid #f0ad60;
+        transition:ease .4s;
+      }
+      .nav-link.active {
+        border-bottom: 3px solid#f0ad60;
+      }
+    .footer {
+        height:200px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+    ul {
+        display:flex;
+        justify-content: space-between;
+    }
+    li {
+        list-style:none;
+    }
+    hr {
+        border: none; /* Uklanja uobičajenu crtu */
+        border-top: 1px solid #ccc; /* Postavlja novu crtu */
+      }
+      .futer {
+        background-color:white;
+      padding: 20px 0;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+    }
+    .kontejner-footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      .footer p {
+        margin: 0;
+      }
+      .carousel {
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .carousel-content {
+        display: flex;
+        transition: transform 0.5s ease;
+        height:400px;
+      }
+      
+      .cars {
+        width:400px;
+        height: 400px;
+      }
+      
+      .prevBtn, .nextBtn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+      
+      .prevBtn {
+        left: 10px;
+      }
+      
+      .nextBtn {
+        right: 10px;
+      }
+      .tekstic {
+        padding-left: 10px;
+      }
+      .tekstic1{
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+      }
+
+    .slika1 {
+      position: relative;
+      overflow: hidden;
+      background-color: #f6eaa9;
+    }
+    
+    .container-slika {
+      display: flex;
+      height:500px;
+      padding: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+    .slika-tekstic{
+      width:50%;
+    }
+  .gific {
+    height:400px;
+  }
+  .welcome-text{
+    font-size: 60px;
+text-align: center;
+padding: 20px;
+  }
+  .tekstina{
+    background-color:#f6eaa9;
+    padding: 20px;
+    font-size: x-large;
+    text-align: justify;
+    width:30%;
+  }
+  .tekstina-kontejner{
+    display: flex;
+    justify-content: center;
+  }
+  #fun-fact{
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6eaa9;
+  }
+  #fun-fact-text{
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+  }
+  #fun-fact-text a {
+    text-decoration: none; /* Uklanja podvlačenje */
+    color: black; /* Boja teksta */
+}
+
+#fun-fact-text a:visited {
+    color: black; /* Boja posle posete */
+}
+
+#fun-fact-text a:hover {
+    color:#f0ad60; /* Boja kada se pređe mišem preko linka */
+}
+
+#fun-fact-text a:active {
+    color: red; /* Boja dok je link pritisnut */
+}
+.tekstic2{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.logo-tekst a:visited {
+  color: black; /* Boja posle posete */
+  text-decoration: none;
+}
+
+.logo-tekst a:hover {
+  color:#f0ad60; /* Boja kada se pređe mišem preko linka */
+}
+.link-naslov{
+  text-decoration: none;
+}
+
+.sorry{
+font-size: xx-large;
+padding:20px;
+}
+.container11 {
+display:flex;
+background-color: #f6eaa9;
+height: 500px;
+justify-content: center;
+align-items: center;
+}
+.carousel-1{
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-content-1 {
+  display: flex;
+  transition: transform 0.5s ease;
+  height:400px;
+}
+.prevBtn-1, .nextBtn-1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prevBtn-1 {
+  left: 10px;
+}
+
+.nextBtn-1 {
+  right: 10px;
+}

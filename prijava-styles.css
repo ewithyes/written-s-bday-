@@ -1,0 +1,153 @@
+* {
+    margin:0;
+    border:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.logo {
+    display:flex;
+    align-items: center;
+}
+.logo-tekst {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+.logo-tekst:hover{
+    color:#f0ad60;
+}
+.hrcak {
+    height: 50px;
+    margin:10px;
+}
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: white;
+}
+body {
+    background-color: white;
+}
+
+    .footer {
+        height:200px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+    }
+ 
+.container1{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffebb4;
+    height:400px;
+    width:400px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    width: calc(100% - 22px); /* Adjust input width */
+}
+
+button {
+    padding: 10px;
+    background-color: #fdb25d;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb9d33;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+.footer {
+    background-color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #ccc; /* Postavlja novu crtu */
+}
+.kontejner-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+.login {
+    color:black;
+}
+.chi1 {
+    height:400px;
+    width:400px;
+}
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: block;
+    }
+    .container1 {
+      display: block;
+    }
+}
+.title1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid orange;  /* Simulira kursor */
+    animation: blinkCursor 0.75s steps(40) infinite;
+  }
+@keyframes blinkCursor {
+    from { border-right-color: orange; }
+    to { border-right-color: transparent; }
+  }
+  hr {
+    border: none; /* Uklanja uobičajenu crtu */
+    border-top: 1px solid #ccc; /* Postavlja novu crtu */
+  }
+  .logo-tekst {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight:bolder;
+  }
