@@ -14,7 +14,7 @@ function login() {
 
     // Hardcoded user credentials
     const storedUsername = 'sunshine';
-    const storedPassword = 'rainbow2605';
+    const storedPassword = 'rainbow';
 
     if (username === storedUsername && password === storedPassword) {
         alert('SLAYYY you have successfully logged in!!! :DDD');
