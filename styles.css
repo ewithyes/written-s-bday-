@@ -72,13 +72,6 @@ li {
       .nav-link.active {
         border-bottom: 3px solid#f0ad60;
       }
-    .footer {
-        height:200px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background-color: white;
-    }
     ul {
         display:flex;
         justify-content: space-between;
