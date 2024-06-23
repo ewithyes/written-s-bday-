@@ -113,23 +113,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-function login() {
-  const username = document.getElementById('username').value;
-  const password = document.getElementById('password').value;
-
-  // Hardcoded user credentials
-  const storedUsername = 'user1';
-  const storedPassword = 'password123';
-
-  if (username === storedUsername && password === storedPassword) {
-      alert('SLAYYY you have successfully logged in!!! :DDD');
-      // Redirect to another page or change the view
-      window.location.href = 'index.html'; // Assume there's a welcome page
-  } else {
-      document.getElementById('error-message').textContent = '://// incorrect username or password!';
-  }
-}
-
 document.addEventListener("DOMContentLoaded", function() {
 const funFacts = [
   { 
